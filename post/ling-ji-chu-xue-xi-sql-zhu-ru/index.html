@@ -7,7 +7,7 @@
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://heheda114.github.io/favicon.ico?v=1560389742402">
+<link rel="shortcut icon" href="https://heheda114.github.io/favicon.ico?v=1560395664992">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
@@ -94,8 +94,30 @@
 <img src="https://heheda114.github.io/post-images/1560389283437.png" alt="图片">
 添加'看看结果
 <img src="https://heheda114.github.io/post-images/1560389333237.png" alt="图片">
-发现错误语句<img src="https://heheda114.github.io/post-images/1560389516567.png" alt="图片">
-尝试将'去掉,输入</p>
+发现错误语句
+<img src="https://heheda114.github.io/post-images/1560389516567.png" alt="图片">
+尝试将'去掉,输入<em>http://127.0.0.1/sqli/Less-2/?id=1' or '1' = '1'  --+</em>
+<img src="https://heheda114.github.io/post-images/1560390349631.png" alt="图片">
+再尝试<em>http://127.0.0.1/sqli/Less-2/?id=1 or '1' = '1'  --+</em>
+<img src="https://heheda114.github.io/post-images/1560390528537.png" alt="">
+成功构造注入语句</p>
+<p>此处有3排输出数据，用order by进行测试
+<img src="https://heheda114.github.io/post-images/1560390787816.png" alt="">
+当为4的时候，出现错误，说明有3列数据
+<img src="https://heheda114.github.io/post-images/1560390853795.png" alt=""></p>
+<p>之后使用union语句进行连接注入
+<img src="https://heheda114.github.io/post-images/1560393599817.png" alt="">
+把id=1改为id=-1这样union前面的语句为id=-1，选择为空，就会执行union后面的语句
+<img src="https://heheda114.github.io/post-images/1560393758627.png" alt="">
+将1,2,3替换为要查询的内容，之后进行爆数据库
+<img src="https://heheda114.github.io/post-images/1560394326191.png" alt="">
+选择数据库security，在进行爆表
+<img src="https://heheda114.github.io/post-images/1560394728017.png" alt="">
+再对user表进行爆
+<img src="https://heheda114.github.io/post-images/1560395189109.png" alt="">
+最后直接对users表进行爆字段
+<img src="https://heheda114.github.io/post-images/1560395517351.png" alt=""></p>
+<p><a href="https://www.cnblogs.com/lyftest/p/8034470.html">information_schema说明 </a></p>
 
             </div>
           </article>
@@ -119,7 +141,7 @@
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://heheda114.github.io/images/avatar.png?v=1560389742402" class="no-responsive avatar">
+    <img src="https://heheda114.github.io/images/avatar.png?v=1560395664992" class="no-responsive avatar">
     <div class="text-muted">温故而知新</div>
     <div class="social-container">
       
@@ -163,7 +185,7 @@
     </div>
     <div class="row">
       
-        <a href="https://heheda114.github.io/tag/gridea" class="badge secondary">
+        <a href="https://heheda114.github.io/tag/gridea" class="badge ">
           Gridea
         </a>
       
