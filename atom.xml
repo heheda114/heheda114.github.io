@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heheda114.github.io</id>
     <title>Gridea</title>
-    <updated>2019-06-13T03:20:10.370Z</updated>
+    <updated>2019-06-13T03:21:48.646Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heheda114.github.io"/>
     <link rel="self" href="https://heheda114.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://heheda114.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[#零基础学习SQL注入 [2]]]></title>
+        <title type="html"><![CDATA[#学习SQL注入天书 [2]]]></title>
         <id>https://heheda114.github.io/post/ling-ji-chu-xue-xi-sql-zhu-ru</id>
         <link href="https://heheda114.github.io/post/ling-ji-chu-xue-xi-sql-zhu-ru">
         </link>
