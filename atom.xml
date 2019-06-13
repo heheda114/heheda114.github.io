@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heheda114.github.io</id>
     <title>或许这就是男人吧</title>
-    <updated>2019-06-13T07:54:19.077Z</updated>
+    <updated>2019-06-13T07:55:28.998Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heheda114.github.io"/>
     <link rel="self" href="https://heheda114.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://heheda114.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 或许这就是男人吧</rights>
     <entry>
-        <title type="html"><![CDATA[#学习SQL注入天书 [2]]]></title>
+        <title type="html"><![CDATA[#学习SQL注入天书 [1]]]></title>
         <id>https://heheda114.github.io/post/ling-ji-chu-xue-xi-sql-zhu-ru</id>
         <link href="https://heheda114.github.io/post/ling-ji-chu-xue-xi-sql-zhu-ru">
         </link>
