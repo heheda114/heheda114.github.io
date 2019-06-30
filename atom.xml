@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heheda114.github.io</id>
     <title>玩拳皇都要半年才入门，不要浮躁。</title>
-    <updated>2019-06-30T03:18:17.209Z</updated>
+    <updated>2019-06-30T07:12:03.340Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heheda114.github.io"/>
     <link rel="self" href="https://heheda114.github.io/atom.xml"/>
@@ -16,45 +16,60 @@
         <link href="https://heheda114.github.io/post/web-an-quan-ji-chu-zhi-shi">
         </link>
         <updated>2019-06-30T02:29:50.000Z</updated>
-        <content type="html"><![CDATA[<p>网站是如何搭建：<br>
-+###1、服务器(硬件)</p>
-<p>+###2、容器(环境)(服务)和他的标配
-+####a、IIS(IIS容器是每台Windows系统自带的容器)<br>
-+ASP<br>
-+Asp.net<br>
-+ASHX(和Asp.net为两兄弟)<br>
-+ASA<br>
-+CER<br>
-+CDX<br>
-+####b、Apache<br>
-+php
-+####c、Tomcat<br>
-+JSP(java语言所写)
-+####d、Nginx<br>
-+php
-+####e、..........</p>
-<p>+###3、脚本和他主要搭配的数据库
-+####a、ASP
-+Accss<br>
-+SQL server (MSSQL)<br>
-+####b、ASP.NET(ASPX)<br>
-+SQL server (MSSQL)(适用于大中型企业)
-+####c、PHP<br>
-+MYSQL(免费、开发简便、适用于中小型企业)<br>
-+####d、JSP<br>
-+Oracle(收费、开发需求大、性能牛批、适用于大型企业类似于政府、银行)</p>
-<p>+###4、数据库<br>
-+####a、Access
-+####b、SQL server (MSSQL)
-+####c、MYSQL
-+####d、Oracle</p>
-<p>+###标配关系表<br>
-+IIS+ASP+Access(70%)(主要用于企业网站后台数据存储)<br>
-+IIS+ASP+SQL server(数据库量一般比较大，用于大型数据存放)<br>
+        <content type="html"><![CDATA[<h2 id="网站是如何搭建">网站是如何搭建：</h2>
+<h3 id="1-服务器硬件">+1、服务器(硬件)</h3>
+<h3 id="2-容器环境服务和他的标配">+2、容器(环境)(服务)和他的标配</h3>
+<pre><code>	+a、IIS(IIS容器是每台Windows系统自带的容器)  
+			+ASP  
+			+Asp.net  
+			+ASHX(和Asp.net为两兄弟)  
+			+ASA  
+			+CER  
+			+CDX  
+	+b、Apache  
+			+php
+	+c、Tomcat  
+			+JSP(java语言所写)
+	+d、Nginx  
+			+php
+	+e、..........  
+</code></pre>
+<h3 id="3-脚本和他主要搭配的数据库">+3、脚本和他主要搭配的数据库</h3>
+<pre><code>	+a、ASP
+	    +Accss  
+	    +SQL server (MSSQL)  
+	 +b、ASP.NET(ASPX)  
+	     +SQL server (MSSQL)(适用于大中型企业)
+	  +c、PHP  
+	     +MYSQL(免费、开发简便、适用于中小型企业)  
+	   +d、JSP  
+	      +Oracle(收费、开发需求大、性能牛批、适用于大型企业类似于政府、银行)
+</code></pre>
+<h3 id="4-数据库">+4、数据库</h3>
+<pre><code>+a、Access
++b、SQL server (MSSQL)
++c、MYSQL
++d、Oracle  
+</code></pre>
+<h3 id="标配关系表">+标配关系表</h3>
+<pre><code>+IIS+ASP+Access(70%)(主要用于企业网站后台数据存储)  
+	+IIS+ASP+SQL server(数据库量一般比较大，用于大型数据存放)  
 +Apache+php+Mysql(90%)
-+Nginx+PHP+Mysql(90%)<br>
-+Tomcat+JSP+Oracle(20%)<br>
-+Tomcat+JSP+Mysql(80%)</p>
++Nginx+PHP+Mysql(90%)  
++Tomcat+JSP+Oracle(20%)  
+	+Tomcat+JSP+Mysql(80%)  
+</code></pre>
+<h2 id="常用的通讯端口">+常用的通讯端口</h2>
+<pre><code>+计算机中拥有65535个端口
+	+Apache 80  
+	+Mysql 3306  
+	+Tomcat 8080  
+	+FTP 21  
+	+SQL server数据库 1433  
+	+Oracle 1521  
+	+SSH(Linux远程控制端口) 22  
+	+Windows远程控制端口 3389  
+	+.......</code></pre>
 ]]></content>
     </entry>
     <entry>
