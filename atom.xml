@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heheda114.github.io</id>
     <title>玩拳皇都要半年才入门，不要浮躁。</title>
-    <updated>2019-07-08T03:30:10.536Z</updated>
+    <updated>2019-07-14T09:39:26.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heheda114.github.io"/>
     <link rel="self" href="https://heheda114.github.io/atom.xml"/>
@@ -10,6 +10,48 @@
     <logo>https://heheda114.github.io/images/avatar.png</logo>
     <icon>https://heheda114.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 玩拳皇都要半年才入门，不要浮躁。</rights>
+    <entry>
+        <title type="html"><![CDATA[python小知识]]></title>
+        <id>https://heheda114.github.io/post/python-xiao-zhi-shi</id>
+        <link href="https://heheda114.github.io/post/python-xiao-zhi-shi">
+        </link>
+        <updated>2019-07-11T00:53:17.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-python中访问类属性的两种方式">1、python中访问类属性的两种方式：</h3>
+<p>1、类名.类属性  （访问类中的属性）
+2、对象、类属性（不推荐）（如果使用对象.类属性 = 值，只会给对象添加一个属性，而不会影响到类属性的值）</p>
+<h3 id="2-类方法">2、类方法</h3>
+<p>1、实列方法（self）<br>
+2、类方法（cls）
+@classmethod
+3、静态方法
+@staticmethod</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux根目录大概作用]]></title>
+        <id>https://heheda114.github.io/post/linux-ming-ling</id>
+        <link href="https://heheda114.github.io/post/linux-ming-ling">
+        </link>
+        <updated>2019-07-08T03:47:55.000Z</updated>
+        <content type="html"><![CDATA[<p>bin目录：此目录存放二进制命令
+boot目录：Linux内核引导系统程序所需的目录
+dev目录：所有设备文件的目录
+etc目录：二进制安装包配置文件默认目录，服务启动命令存放目录
+home目录：普通用户的家目录默认数据存放目录
+lib目录：库文件文件存放目录
+lost+found目录：在EXT3系统中，当系统意外崩溃或意外关机时，会产生一些碎片文件在这个目录下面，系统启动fcsk工具会检查这个目录，并修复已损坏的文件系统。
+mnt目录：用于临时挂在存储设备，通常情况下可以挂载LINUX IOS光盘进行无网条件下的安装其他软件包
+opt目录：自定义软件安装存放目录，用户自行安装的软件包存放目录。
+proc目录：进程及内核信息存放目录
+root目录：管家的家目录
+sbin目录：/sbin　　系统管理员命令存放的目录（超级管理员使用的命令）
+tmp目录：临时文件目录，程序运行时产生的临时文件存放目录
+usr目录：系统存放程序的目录
+其中usr/bin 用户可执行文件目录（应用程序）
+/usr/sbin目录　　存放一些网络管理工具的软件目录
+var目录：存放内容常变动的文件目录</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[web安全基础知识]]></title>
         <id>https://heheda114.github.io/post/web-an-quan-ji-chu-zhi-shi</id>
